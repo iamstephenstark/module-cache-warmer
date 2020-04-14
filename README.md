@@ -1,2 +1,15 @@
 # module-cache-warmer
-Magento 2 Cache Wamer
+Magento 2 Cache Warmer (ALPHA)
+
+Just the start of my new Magento 2 cache warmer.
+
+## Authors
+
+Contributors names and contact info
+
+[Stephen Stark](iamstephenstark@gmail.com)
+
+## Version History
+
+* 0.0.1
+    * Initial (ALPHA) Release

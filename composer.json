@@ -1,0 +1,20 @@
+{
+    "name": "iamstephenstark/module-CacheWarmer",
+    "description": "Magento 2 Cache Warmer",
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "php": "~7.1.0|~7.2.0|~7.3.0"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "IAmStephenStark\\CacheWarmer\\": ""
+        }
+    }
+}
