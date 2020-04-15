@@ -4,10 +4,21 @@ namespace IAmStephenStark\CacheWarmer\Cron;
 
 use Psr\Log\LoggerInterface;
 
+/**
+ * Class CleanUrls
+ * @package IAmStephenStark\CacheWarmer\Cron
+ */
 class CleanUrls
 {
+    /**
+     * @var LoggerInterface
+     */
     protected $logger;
 
+    /**
+     * CleanUrls constructor.
+     * @param LoggerInterface $logger
+     */
     public function __construct(
         LoggerInterface $logger
     ) {
