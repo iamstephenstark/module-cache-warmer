@@ -3,6 +3,8 @@ Magento 2 Cache Warmer (ALPHA)
 
 Just the start of my new Magento 2 cache warmer.
 
+NOTE: This is a work in progress.
+
 ## Authors
 
 Contributors names and contact info
