@@ -7,8 +7,6 @@ NOTE: This is a work in progress.
 
 ## Authors
 
-Contributors names and contact info
-
 [Stephen Stark](iamstephenstark@gmail.com)
 
 ## Version History
