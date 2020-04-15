@@ -16,6 +16,12 @@
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
             </group>
+            <group id="cron" translate="label" sortOrder="1" type="text" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>Cron Configuration</label>
+                <field id="schedule" translate="label" sortOrder="1" type="text" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Cron Schedule</label>
+                </field>
+            </group>
         </section>
     </system>
 </config>

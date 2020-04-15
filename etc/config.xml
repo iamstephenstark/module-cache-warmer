@@ -5,6 +5,9 @@
             <general>
                 <enable>1</enable>
             </general>
+            <cron>
+                <schedule>* * * * *</schedule>
+            </cron>
         </cache_warmer>
     </default>
 </config>
