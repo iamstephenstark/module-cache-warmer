@@ -1,5 +1,5 @@
 {
-    "name": "iamstephenstark/module-CacheWarmer",
+    "name": "iamstephenstark/module-cache-warmer",
     "description": "Magento 2 Cache Warmer",
     "type": "magento2-module",
     "version": "0.0.1",
