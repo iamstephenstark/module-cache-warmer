@@ -4,22 +4,26 @@
         <tab id="iamstephenstark" translate="label" sortOrder="400">
             <label>IAmStephenStark</label>
         </tab>
-        <section id="cache_warmer" sortOrder="160" type="text" showInDefault="1" showInWebsite="0" showInStore="0">
+        <section id="cache_warmer" sortOrder="160" showInDefault="1" showInWebsite="0" showInStore="0">
             <class>separator-top</class>
             <label>Cache Warmer</label>
             <tab>iamstephenstark</tab>
             <resource>IAmStephenStark_CacheWarmer::IAmStephenStark_CacheWarmer</resource>
-            <group id="general" translate="label" sortOrder="1" type="text" showInDefault="1" showInWebsite="0" showInStore="0">
+            <group id="general" translate="label" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
                 <label>General Configuration</label>
                 <field id="enable" translate="label" sortOrder="1" type="select" showInDefault="1" showInWebsite="0" showInStore="0">
                     <label>Enable</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
             </group>
-            <group id="cron" translate="label" sortOrder="1" type="text" showInDefault="1" showInWebsite="0" showInStore="0">
+            <group id="cron" translate="label" sortOrder="2" showInDefault="1" showInWebsite="0" showInStore="0">
                 <label>Cron Configuration</label>
                 <field id="schedule" translate="label" sortOrder="1" type="text" showInDefault="1" showInWebsite="0" showInStore="0">
                     <label>Cron Schedule</label>
+                </field>
+                <field id="clean_urls_schedule" translate="label" sortOrder="1" type="text" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Clean Up Urls</label>
+                    <comment>Set cron schedule to clean up cache warmer url table.</comment>
                 </field>
             </group>
         </section>

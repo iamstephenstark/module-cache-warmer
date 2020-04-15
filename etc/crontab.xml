@@ -4,5 +4,8 @@
         <job name="cache_warmer_cronjob" instance="IAmStephenStark\CacheWarmer\Cron\CacheWarmer" method="execute">
             <config_path>cache_warmer/cron/schedule</config_path>
         </job>
+        <job name="cache_warmer_clean_urls_cronjob" instance="IAmStephenStark\CacheWarmer\Cron\CleanUrls" method="execute">
+            <config_path>cache_warmer/cron/clean_urls_schedule</config_path>
+        </job>
     </group>
 </config>

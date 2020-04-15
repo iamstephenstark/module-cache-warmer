@@ -7,6 +7,7 @@
             </general>
             <cron>
                 <schedule>* * * * *</schedule>
+                <clean_urls_schedule>* * * * *</clean_urls_schedule>
             </cron>
         </cache_warmer>
     </default>
